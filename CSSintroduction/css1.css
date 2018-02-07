@@ -1,4 +1,4 @@
-body {
+/*body {
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -61,4 +61,61 @@ p a{
 
 div p{
     background-color: red;
+}
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.text{
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    font-style: oblique;
+    text-transform: uppercase;
+
+}
+.text1 {
+    font-style: oblique;
+font-family: Roboto;
+}
+.text2 {
+    
+}
+span{
+    font-weight: 700;
+
+}
+.t1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: left;
+    text-indent: 50px;
+    text-shadow:  15px 15px 15px rgb(22, 234, 324);
+}
+.t2{
+    text-transform: lowercase;
+    text-decoration: line-through;
+    text-align: right;
+}
+    
+a:hover {color: green;}
+a:visited {
+    color: black;
+  }
+  /*
+a {
+
+    color:red; 
+}               
+*/
+table{
+    width: 800px;
+    height: 400px;
+}
+table tbody tr{
+background-color: red;
+}
+table tbody tr:nth-child(2n){
+    background-color: yellow;
+}
+table tbody tr td:nth-child(2n){
+ 
+    background-color: yellow;
 }
